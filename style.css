@@ -7,23 +7,30 @@ body{
  
 }
 
-
-
+ 
 
 
  .logo{
     margin-left: 5rem;
     margin-top: 1rem;
     margin-bottom: 3em;
+     
 }
 .note .h1{
+    display: flex;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2rem;
     color: aliceblue;
     margin-top: 10rem;
     letter-spacing: 5px;
+    grid-template-columns: repeat(auto-fit, minmax (150px, 1fr));
 }
+
+  
 .note .h3{
+    display: flex;
+    
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     color: rgb(181, 209, 233);
     margin-top: -10px;
@@ -31,6 +38,7 @@ body{
     line-height: 20px;
     letter-spacing: 1px;
 }
+
 .note .h5{
     display: flex;
     width: 28%;
