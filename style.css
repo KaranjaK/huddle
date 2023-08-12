@@ -24,7 +24,7 @@ body{
     color: aliceblue;
     margin-top: 10rem;
     letter-spacing: 5px;
-    grid-template-columns: repeat(auto-fit, minmax (150px, 1fr));
+
 }
 
   
@@ -66,7 +66,7 @@ body{
 }
 .img{
  margin-top: -19em;
-margin-left: 49px;
+margin-left: 49px; 
    
 
 }
