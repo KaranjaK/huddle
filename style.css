@@ -23,9 +23,13 @@ a{
 #note .container > *:first-child img{
     margin-left: 5%;
     width: 90%;
+    margin-top: -5%;
 }
 #note .container > *:last-child{
     color: #fff;
+}
+#note .container > *:last-child h3{
+    flex-direction: column;
 }
 .logo{
     display: grid;
