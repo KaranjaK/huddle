@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
+    gap: 15%;
+}
+
+.img-con img {
+    width: 100%;
+
+}
+
+.txt-con {
+    margin-left: 20px;
+}
+
+.txt-con h1 {
+    font-size: 4.2rem;
+    font-family: inherit;
+    word-wrap: break-word;
+    text-overflow: unset;
+    font-weight: bolder;
+}
+
+.txt-con .btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-con h3 {
+    margin-top: 40px;
+    font-size: 2.5rem;
+    font-family: inherit;
+    word-wrap: break-word;
+    text-overflow: unset;
+    font-weight: bolder;
+}
+
+.txt-con h4 {
+    margin-top: 60px;
+}
+
+.p1 {
+    margin-left: 127px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p2 {
+    margin-top: 10px;
+    font-size: 11.7px;
+    width: 330px;
+}
+
+.sign1,
+.sign2,
+.sign3,
+.sign4 {
+    width: 280px;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    border: 0.7px solid rgba(139, 135, 135, 0.527);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.sign1 {
+    margin-top: 30px;
+    background-color: white;
+    font-weight: 400;
+}
+
+.sign2 {
+    margin-top: 10px;
+    font-weight: 700;
+    background-color: white;
+}
+
+.sign2:hover {
+    background-color: rgba(139, 135, 135, 0.527);
+    transition: .5s ease-out;
+}
+
+.sign3 {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+
+.sign3:hover {
+    background-color: rgba(30, 106, 248, 0.806);
+}
+
+.sign4 {
+    background-color: white;
+    margin-top: 22px;
+    color: cornflowerblue;
+    font-weight: 700;
+}
+.sign4:hover{
+    background-color: rgba(156, 202, 254, 0.361);
+    transition: .5s ease-out;
+}
+footer{
+    padding: 10px;
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+footer ul li{
+    padding: 5px;
+    font-size: 12px;
+}
+footer ul li:hover{
+    text-decoration: underline;
+    text-decoration-color:rgba(0, 0, 0, 0.591) ;
+    transition: .5s ease-in-out;
+}
+
+footer ul li a{
+    color: rgba(0, 0, 0, 0.591);
+}
